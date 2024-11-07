@@ -1,0 +1,323 @@
+/* $font-quote: "La Belle Aurore", cursive; */
+* {
+  box-sizing: border-box;
+}
+
+/*Body*/
+body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Divider*/
+hr {
+  border: 2px solid black;
+}
+
+/*Navigation Menu*/
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+nav button.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: transparent;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  padding: 10px 20px;
+  font-size: 30px;
+  border-radius: 5px;
+  z-index: 1000;
+  /* transform: (-50%, -50%); */
+}
+nav button.overlay:hover {
+  background-color: black;
+}
+nav .offcanvas {
+  background-color: #f8f9fa;
+}
+nav .offcanvas-header {
+  background-color: #434542;
+  color: #fff;
+  text-align: center;
+  font-family: "Lobster Two", sans-serif;
+}
+nav .offcanvas-body {
+  padding: 20px;
+  text-align: center;
+}
+nav .offcanvas-text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/*Menu*/
+nav {
+  /*Support*/
+}
+nav menu {
+  padding: 20px;
+}
+nav menu ul {
+  padding: 2rem;
+}
+nav menu ul li {
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+  margin: 2px;
+  border-radius: 15px;
+  background-color: #d1cfb5;
+  color: #434542;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+nav #support {
+  background-color: #d1cfb5;
+  border-radius: 15px;
+}
+nav #support a {
+  color: #434542;
+}
+
+/*Header*/
+header.container h5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8be2f3;
+  color: #434542;
+  margin-bottom: 0;
+}
+
+/*Main*/
+main {
+  position: relative;
+  /*About Section*/
+  /*Resume Section*/
+  /*Portfolio Section*/
+}
+main section img {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main section p.quote {
+  font-size: 24px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Cardo", sans-serif;
+}
+main #about-container.container-fluid {
+  background-color: #d1cfb5;
+  border: 15px solid whitesmoke;
+}
+main section#about.container {
+  background-color: #434542;
+  color: #d1cfb5;
+  padding: 10px;
+}
+main section#about.container h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Cardo", serif;
+}
+main section#about.container .about-intro p {
+  text-align: center;
+  color: whitesmoke;
+}
+main section#about.container .about-intro .about-btn {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+main section#about.container .about-intro .about-btn button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #d1cfb5;
+  color: #434542;
+  border: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+main section#about.container .about-intro .about-btn button:hover {
+  background-color: #9ADDE9;
+}
+main section#about.container .about-intro h2 {
+  font-family: "Cardo", serif;
+  padding-left: 1.5rem;
+}
+main section#about.container .about-intro .col-lg-8 ul li {
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+}
+main section#about.container .gallery-btn {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+main section#about.container .gallery-btn button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #d1cfb5;
+  color: #434542;
+  border: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+main section#about.container .gallery-btn button a {
+  text-decoration: none;
+  color: #434542;
+}
+main section#about.container .gallery-btn button:hover {
+  background-color: #9ADDE9;
+}
+main #resume-container.container-fluid {
+  background-color: #9adde9;
+  border: 15px solid whitesmoke;
+}
+main section#resume.container {
+  background-color: #5B9BB1;
+  color: #FFFAE3;
+  padding: 10px;
+}
+main section#resume.container h2#res-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: "Cardo", serif;
+}
+main section#resume.container .resume-intro p {
+  text-align: center;
+  color: #FFFAE3;
+}
+main section#resume.container .resume-intro .pdf-btn {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+main section#resume.container .resume-intro .pdf-btn button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #9adde9;
+  color: #5B9BB1;
+  border: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+main section#resume.container .resume-intro .pdf-btn button a {
+  text-decoration: none;
+  color: #001F3F;
+}
+main section#resume.container .resume-intro .container .row .col-sm-8 p {
+  text-align: justify;
+}
+main section#resume.container .resume-intro .container .row .col-sm-8 ul li {
+  list-style: none;
+}
+main #portfolio-container.container-fluid {
+  background-color: #d1cfb5;
+  border: 15px solid whitesmoke;
+}
+main section#portfolio.container {
+  background-color: #434542;
+  color: #d1cfb5;
+  padding: 10px;
+}
+main section#portfolio.container h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Cardo", serif;
+  font-size: 36px;
+}
+main section#portfolio.container .portfolio-intro p {
+  text-align: center;
+  color: whitesmoke;
+}
+main section#portfolio.container .projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 16px;
+}
+main section#portfolio.container .projects img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+main h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Cardo", serif;
+}
+
+/*Footer*/
+footer {
+  background-color: #9ADDE9;
+  padding: 20px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: black;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer ul li {
+  margin: 5px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer ul li i {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  button.overlay {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  footer ul {
+    flex-direction: column;
+  }
+  footer li {
+    margin: 10px 0;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer i {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
