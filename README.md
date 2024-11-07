@@ -13,17 +13,17 @@ Welcome to my Personal Portfolio! This repository contains a collection of the p
 5. [Social Media] (#footer)
 
 ## Welcome Section
-### Brief introduction to my Personal Website
+ Brief introduction to my Personal Website
 
 ## About Me Section
-### Passioante about technology and developing amazing projects through my front-end development skills
+ Passioante about technology and developing amazing projects through my front-end development skills
 
 ## Resume Section
-### Take a moment to read about my work experience and the projects that allowed me to be part of. Trust me, it's quite interesting.
+ Take a moment to read about my work experience and the projects that allowed me to be part of. Trust me, it's quite interesting.
 
 ## Portfolio Section
-### Here's my portfolio... Go on!! Click and see
-
+ I have listed my most important projects as a Front-End Developer, but I also took the liberty to create a space of other projects I participated on and enjoyed.
+ 
 ## Technologies Used
 -HTML
 -CSS
