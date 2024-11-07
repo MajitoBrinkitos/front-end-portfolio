@@ -1,5 +1,6 @@
 # Front-end Developer Portfolio
-Front-end Portfolio
+![preview](https://github.com/user-attachments/assets/9e8c4b3f-19f3-4a98-899d-1bd66726efaf)
+
 
 ## Introduction
 Welcome to my Personal Portfolio! This repository contains a collection of the projects I have worked on so far, showcasing my skills in HTML, CSS, SAAS, JavaScript and Bootstrap.
